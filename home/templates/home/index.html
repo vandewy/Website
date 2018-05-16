@@ -1,22 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home Page</title>
-</head>
-<body>
+{% extends "home/header.html" %}
 
-{% if me %}
+{% block content %}
 
-    <ul>
-        {% for data in me %}
-        <li>{{ data.first_name }}</li>
-        {%  endfor %}
-    </ul>
-{% else %}
-    <h1>No data</h1>
-{% endif %}
+    <h1>This is my website</h1>
 
-
-</body>
-</html>
+{% endblock %}
