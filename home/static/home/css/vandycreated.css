@@ -1,0 +1,23 @@
+
+
+.tableofcontents{
+    padding-bottom: 1px;
+}
+
+#radar_row{
+    background-image: url("../img/radar_background.png");
+    background-color: #000000;
+    height: 150px;
+}
+
+#top_description{
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
+    padding-left: 1px;
+}
+
+#message{
+    height: 100px;
+    width: 400px;
+}

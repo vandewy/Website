@@ -12,3 +12,19 @@ def index(request):
     }
     #httpresponse is built into render
     return render(request, 'home/index.html', context)
+
+def projects(request):
+    me = Personal.objects.all()
+
+    context = {
+        'me': me,
+    }
+    return render(request, 'home/projects.html', context)
+
+def contact(request):
+    me = Personal.objects.all()
+
+    context = {
+        'me': me,
+    }
+    return render(request, 'home/contact.html', context)
