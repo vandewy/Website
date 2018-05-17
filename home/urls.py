@@ -6,4 +6,6 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^projects/$', views.projects, name='projects'),
     url(r'^contact/$', views.contact, name='contact'),
+    url(r'^radar_sim/$', views.radar_sim, name='radar_sim'),
+    url(r'^tower_sim/$', views.tower_sim, name='tower_sim'),
 ]

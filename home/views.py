@@ -28,3 +28,11 @@ def contact(request):
         'me': me,
     }
     return render(request, 'home/contact.html', context)
+
+def radar_sim(request):
+
+    return render(request, 'home/radar_sim.html')
+
+def tower_sim(request):
+
+    return render(request, 'home/tower_sim.html')

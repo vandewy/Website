@@ -1,20 +1,42 @@
-
-
 .tableofcontents{
     padding-bottom: 1px;
 }
 
-#radar_row{
-    background-image: url("../img/radar_background.png");
-    background-color: #000000;
+#banner{
+    top: 0;
+    #background-image: url("../img/radar_background1.png");
+    width: 100%;
     height: 150px;
+}
+
+#personal_photo{
+
 }
 
 #top_description{
     color: #ffffff;
-    background-color: #000000;
-    border-color: #000000;
-    padding-left: 1px;
+    text-align: left;
+}
+
+#projectheader{
+    text-align: center;
+}
+
+#projecttable{
+    width: 100%;
+}
+
+#banner{
+    text-align: center;
+}
+
+#column2{
+    text-align: right;
+    padding-right: 5em;
+}
+
+#column1{
+    padding-left: 5em;
 }
 
 #message{
