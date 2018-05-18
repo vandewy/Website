@@ -1,21 +1,30 @@
 .tableofcontents{
     padding-bottom: 1px;
+    font-family: "Century Gothic";
+    font-size: large;
 }
 
 #banner{
     top: 0;
     #background-image: url("../img/radar_background1.png");
+    background-color: black;
+    margin:7px auto;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
     width: 100%;
-    height: 150px;
+    height: 100px;
 }
 
 #personal_photo{
-
+    #max-height: 300px;
 }
 
 #top_description{
     color: #ffffff;
-    text-align: left;
+    text-align: center;
+    font-family: "Century Gothic";
 }
 
 #projectheader{
@@ -24,10 +33,6 @@
 
 #projecttable{
     width: 100%;
-}
-
-#banner{
-    text-align: center;
 }
 
 #column2{
