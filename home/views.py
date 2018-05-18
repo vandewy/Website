@@ -36,3 +36,15 @@ def radar_sim(request):
 def tower_sim(request):
 
     return render(request, 'home/tower_sim.html')
+
+def this_website(request):
+
+    return render(request, 'home/this_website.html')
+
+def testing(request):
+
+    return render(request, 'home/testing.html')
+
+def web_scraping(request):
+
+    return render(request, 'home/web_scraping.html')
