@@ -22,7 +22,7 @@
 }
 
 #radar_image{
-    background-image: url('../img/radar_background3x2.jpg');
+    background-image: url('../img/radar_background.jpg');
     width: inherit;
     height: 250px;
 }

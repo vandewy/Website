@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6a22c3e7-6c17-4c62-a396-3b79855d99a9" name="Website" url="http://167.99.226.169">
+        <fileTransfer host="167.99.226.169" port="22" privateKey="C:\Users\vande\Desktop\Website Sec\DO_PRIV_KEY.ppk" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
