@@ -20,5 +20,9 @@
     <input type="reset" value="Reset">
 
     </form>
+<?php
 
+echo "test 1 2 3";
+
+?>
 {% endblock %}

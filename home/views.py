@@ -27,7 +27,7 @@ def contact(request):
     context = {
         'me': me,
     }
-    return render(request, 'home/contact.html', context)
+    return render(request, 'home/contact.php', context)
 
 def radar_sim(request):
 
