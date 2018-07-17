@@ -6,7 +6,8 @@
 }
 
 .list-group-item{
-    background-color: #adb5bd;
+    background-color: lightgray;
+    <!--background-color: #adb5bd;-->
 }
 
 #banner{
