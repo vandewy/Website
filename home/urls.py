@@ -11,6 +11,6 @@ urlpatterns = [
     url(r'^this_website/$', views.this_website, name='this_website'),
     url(r'^testing/$', views.testing, name='testing'),
     url(r'^web_scraping/$', views.web_scraping, name='web_scraping'),
-    url(r'^send_mail/$', views.message_sent, name='message_sent')
+    url(r'^send_mail/$', views.message_sent, name='message_sent'),
 
 ]
